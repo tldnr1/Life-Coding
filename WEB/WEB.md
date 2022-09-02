@@ -5,8 +5,10 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
 
 ------------------
 # WEB1 - HTML & Internet
- - tag란?
-  - html 문서를 구성하는 기본 단위
+- tag란?
+    - html 문서를 구성하는 기본 단위
 
 
-- 
+- 줄바꿈 : br vs p
+    - br : 단순 줄바꿈
+    - p : paragraph tag로 '한 문단'을 의미  주로 <p> 태그를 많이 사용함
