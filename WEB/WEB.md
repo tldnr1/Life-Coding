@@ -11,4 +11,4 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
 
 - 줄바꿈 : br vs p
     - br : 단순 줄바꿈
-    - p : paragraph tag로 '한 문단'을 의미  주로 <p> 태그를 많이 사용함
+    - p : paragraph tag로 '한 문단'을 의미   주로 <p> 태그를 많이 사용함
