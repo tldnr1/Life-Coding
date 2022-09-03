@@ -88,6 +88,6 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     - block : 전후 줄바꿈 O  (div, p, h1 등)
         - inline과 달리 width, height, margin, padding 모두 반영 O
     - inline-block : 하이브리드 느낌  (button, input, select 등)  
-        inline element 처럼 전후 줄바꿈 없이 한 줄에 다른 엘리먼트들과 나란히 배치  
-        blcok element처럼 width, height, margin, padding 속성 지정 가능
+            inline element 처럼 전후 줄바꿈 없이 한 줄에 다른 엘리먼트들과 나란히 배치  
+            blcok element처럼 width, height, margin, padding 속성 지정 가능
     - none : 해당 컨텐트가 안보이게 함
