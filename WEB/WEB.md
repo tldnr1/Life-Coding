@@ -80,8 +80,14 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
         - border area(테두리 영역)
         - margin area(바깥 여백 영역) : 테두리와 인근 요소 사이의 빈 공간 의미
 
-- display 속성 : inline, block, inline-block
+- display 속성 : inline, block, inline-block, none
     - inline : 줄바꿈 X  (span, a, em 등)
         - width, height 속성은 지정해도 무시됨  
             (태그가 마크업하고 있는 컨텐트의 크기만큼만 공간을 차지하도록 되어있기 때문)
-    - block : 
+        - margin, padding 속성은 좌우 간격만 반영, 상하는 반영 X
+    - block : 전후 줄바꿈 O  (div, p, h1 등)
+        - inline과 달리 width, height, margin, padding 모두 반영 O
+    - inline-block : 하이브리드 느낌  (button, input, select 등)  
+        inline element 처럼 전후 줄바꿈 없이 한 줄에 다른 엘리먼트들과 나란히 배치  
+        blcok element처럼 width, height, margin, padding 속성 지정 가능
+    - none : 해당 컨텐트가 안보이게 함
