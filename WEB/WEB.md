@@ -24,6 +24,11 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     - p : paragraph tag로 '한 문단'을 의미  
           주로 p 태그를 많이 이용함
 
+- div 태그 : 가상의 레이아웃 설계
+    - Division의 약자로, 레이아웃을 나누는데 주로 사용됨
+    - 다른 태그들과 달리, div 태그 자체에 의미가 있지는 않음
+        - 대신에 주로 id 값 부여를 통해 특정한 레이아웃 나누기에 사용
+
 - 링크 태그 : a vs link
     - a : anchor(닻) 이라는 의미로 html에서 다른 페이지와 연결할 때 사용
     - link : 문서나 외부 파일과 연결할 때 사용
@@ -54,18 +59,19 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
         - __inline style__ : style="background-color:green" 처럼 사용하는 것. style 태그와는 다름
 
 - Selector(선택자), Property(속성), Value(값)
-    '''
+    ```
         a {
             font-size: 50px;
             text-align: center;
         }
-    '''
+    ```
     - Selector : a 에 해당
         - 종류 : 기본 선택자(a), 클래스 선택자(.a), id 선택자(#a)
     - Property : font-size, text-align 에 해당
     - Value : 50px, center 에 해당
         - Property : Value;  의 형태로 사용. ';'은 줄 구분용 문자임
         - Declaration(효과) = Property : Value
+    - 세부 적용 : #grid ol {} 이라고하면, id="grid" 아래에 ol 태그가 오면 적용하는 style 의미
 
 - CSS 반영 우선순위
     - !important > inline style > id 선택자 > class 선택자 > 기본 선택자
@@ -91,3 +97,24 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
             inline element 처럼 전후 줄바꿈 없이 한 줄에 다른 엘리먼트들과 나란히 배치  
             blcok element처럼 width, height, margin, padding 속성 지정 가능
     - none : 해당 컨텐트가 안보이게 함
+
+- CSS 레이아웃 : flex vs grid
+    - flex : 한 방향 레이아웃 시스템 (1차원)
+    - grid : 두 방향(가로-세로) 레이아웃 시스템 (2차원)
+        - display: grid; 로 사용 (flex면 grid 대신 flex)
+    ```
+        #grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+    ```
+
+- 미디어 쿼리 : css의 if문
+    - 페이지의 변화에 css가 반응하도록 해줌
+    ```
+        @media (조건) {
+            스타일
+        }
+    ```
+    - 예를 들어 화면의 폭이 600px보다 작을 때 반응하게 하고싶다면,  
+        max-width:600px 을 조건에 넣어주면 된다
