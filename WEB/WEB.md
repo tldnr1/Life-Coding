@@ -4,6 +4,7 @@ https://codesandbox.io/ - VSCode와 닮았고 Github 연동이 된다!! 간단�
 https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간단하게 써보기에 좋은 에디터
 
 
+------------------
 # WEB1 - HTML & Internet
 - tag란?
     - html 문서를 구성하는 기본 단위
@@ -43,3 +44,24 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
 - 사진(이미지) 태그 : img
     - src에 사진의 url을 넣어서 사진을 불러올 수 있다
     - width 등과 같은 속성을 통해 사진의 표현을 조절할 수 있다
+
+
+------------------
+# WEB2 - CSS
+ - css 태그 : link vs style
+    - link : URL을 통해 CSS 파일 연결. 이 방식을 주로 사용
+    - style : html 파일에 직접 입력. 잘 안씀
+        - __inline style__ : style="background-color:green" 처럼 사용하는 것. style 태그와는 다름
+
+- Selector(선택자), Property(속성), Value(값)
+    '''
+        a {
+            font-size: 50px;
+            text-align: center;
+        }
+    '''
+    - Selector : a 에 해당
+        - 종류 : 기본 선택자(a), 클래스 선택자(.a), id 선택자(#a)
+    - Property : font-size, text-align 에 해당
+    - Value : 50px, center 에 해당
+        - Property : Value;  의 형태로 사용. ';'은 줄 구분용 문자임
