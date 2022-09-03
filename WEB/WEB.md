@@ -67,6 +67,9 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     ```
     - Selector : a 에 해당
         - 종류 : 기본 선택자(a), 클래스 선택자(.a), id 선택자(#a)
+            - 여기서 id 선택자는 단 하나를 지정해주는 것이기 때문에  
+                한번 등장한 id는 그 페이지에서 다시 사용하지 않는 것이 규약임  
+                    (동작은 하지만, 규약 위반이기 때문에 하지 말자)
     - Property : font-size, text-align 에 해당
     - Value : 50px, center 에 해당
         - Property : Value;  의 형태로 사용. ';'은 줄 구분용 문자임
