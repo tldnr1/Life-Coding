@@ -133,3 +133,5 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
 - Event란?
     - onclick, onchange, onkeydown 등과 같이  
         웹브라우저에서 일어나는 여러 사건들
+    - event에 js 코드를 입력해서 원하는 동작을 html에 지정할 수 있음
+        - onclick=" 여기서 js 코드 입력 "
