@@ -8,11 +8,6 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
 - tag란?
     - html 문서를 구성하는 기본 단위
 
-- 줄바꿈 : br vs p
-    - br : 단순 줄바꿈
-    - p : paragraph tag로 '한 문단'을 의미  
-          주로 p 태그를 많이 이용함
-
 - html의 기본구조
     - head : html의 머리부분
         - title : 웹페이지의 이름. 가장 위에 나오는 부분
@@ -23,6 +18,11 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
             - e.g. charset을 통해 문서를 읽을 언어를 정의할 수 있음
     - body : html의 몸통부분
 
+- 줄바꿈 : br vs p
+    - br : 단순 줄바꿈
+    - p : paragraph tag로 '한 문단'을 의미  
+          주로 p 태그를 많이 이용함
+
 - 링크 태그 : a vs link
     - a : anchor(닻) 이라는 의미로 html에서 다른 페이지와 연결할 때 사용
     - link : 문서나 외부 파일과 연결할 때 사용
@@ -32,9 +32,14 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
             - 2. 상대주소 : href=“/lecture/logo.png”
             - 3. 같은 페이지 내에서 명시된 id를 가지고 있는 요소 : href=“#bottom”
             - 4. 스크립트 : href=“javascript:alert(‘반갑습니다!’)”
+        - target = "_blank" 를 통해 클릭으로 새 페이지 띄우기를 할 수 있다
 
 - 목록 태그 : ol, ul, dl 와 li  
     li는 list item의 약자로 목록을 만드는 태그
     - ol : ordered list의 약자로, 순서가 있는 목록을 만들 때 사용
     - ul : unordered list의 약자로, 순서가 필요 없는 목록을 만들 때 사용
     - dl : definition list의 약자로, 사전처럼 용어를 설명하는 목록을 만듬
+
+- 사진(이미지) 태그 : img
+    - src에 사진의 url을 넣어서 사진을 불러올 수 있다
+    - width 등과 같은 속성을 통해 사진의 표현을 조절할 수 있다
