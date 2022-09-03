@@ -118,3 +118,15 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     ```
     - 예를 들어 화면의 폭이 600px보다 작을 때 반응하게 하고싶다면,  
         max-width:600px 을 조건에 넣어주면 된다
+
+
+------------------
+# WEB2 - JavaScript
+- js 태그 : script
+    - script 태그를 통해 js를 html안에 적을 수 있음
+    - html과 달리 js는 값을 동적으로 계산함
+        - html에서 1+1은 2가 아니지만, js에서는 1+1은 2임
+
+- Event란?
+    - onclick, onchange, onkeydown 등과 같이  
+        웹브라우저에서 일어나는 여러 사건들
