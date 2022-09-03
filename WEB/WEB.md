@@ -32,3 +32,9 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
             - 2. 상대주소 : href=“/lecture/logo.png”
             - 3. 같은 페이지 내에서 명시된 id를 가지고 있는 요소 : href=“#bottom”
             - 4. 스크립트 : href=“javascript:alert(‘반갑습니다!’)”
+
+- 목록 태그 : ol, ul, dl 와 li  
+    li는 list item의 약자로 목록을 만드는 태그
+    - ol : ordered list의 약자로, 순서가 있는 목록을 만들 때 사용
+    - ul : unordered list의 약자로, 순서가 필요 없는 목록을 만들 때 사용
+    - dl : definition list의 약자로, 사전처럼 용어를 설명하는 목록을 만듬
