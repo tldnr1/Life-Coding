@@ -65,3 +65,23 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     - Property : font-size, text-align 에 해당
     - Value : 50px, center 에 해당
         - Property : Value;  의 형태로 사용. ';'은 줄 구분용 문자임
+        - Declaration(효과) = Property : Value
+
+- CSS 반영 우선순위
+    - !important > inline style > id 선택자 > class 선택자 > 기본 선택자
+        - !important : 속성값 뒤에 중요표시
+        - inline style : 태그 안에 style='' 로 적은 부분
+
+- 박스 모델
+    문서의 레이아웃을 계산할 때, 사각형 박스로 영역을 나누는 것
+    - content < padding < border < margin 순으로 넓어짐
+        - content area(콘텐츠 영역) : 실제 내용을 포함하는 부분
+        - padding area(안쪽 여백 영역)
+        - border area(테두리 영역)
+        - margin area(바깥 여백 영역) : 테두리와 인근 요소 사이의 빈 공간 의미
+
+- display 속성 : inline, block, inline-block
+    - inline : 줄바꿈 X  (span, a, em 등)
+        - width, height 속성은 지정해도 무시됨  
+            (태그가 마크업하고 있는 컨텐트의 크기만큼만 공간을 차지하도록 되어있기 때문)
+    - block : 
