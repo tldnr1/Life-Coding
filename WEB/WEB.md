@@ -130,8 +130,14 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     - html과 달리 js는 값을 동적으로 계산함
         - html에서 1+1은 2가 아니지만, js에서는 1+1은 2임
 
-- Event란?
+- Event 란?
     - onclick, onchange, onkeydown 등과 같이  
         웹브라우저에서 일어나는 여러 사건들
     - event에 js 코드를 입력해서 원하는 동작을 html에 지정할 수 있음
         - onclick=" 여기서 js 코드 입력 "
+
+- querySelector() 란?
+    - CSS 선택자로 요소를 선택하게 해주는 메서드  
+        주의할 점은 선택자에 해당하는 첫번째 요소만 선택한다는 것
+    - 예를 들어, document.querySelector('.container') 라고하면  
+        클래스 값이 container인 첫번째 요소에 접근함
