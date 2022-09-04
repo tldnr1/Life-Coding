@@ -3,6 +3,24 @@
     <head>
         <title>WEB1 - JavaScript</title>
         <meta charset="utf-8">
+        <script>
+        function nightDayHandler(self) { /* self는 this를 받는 매개변수로 사용됨 */
+            /* 함수에서 this를 쓰면
+                this는 전역객체를 가리키게 된다.
+                웹브라우저에서는 this가 윈도우를 가리키게 됨!!! */
+            var target = document.querySelector('body');
+            if(self.value === 'night') {
+                target.style.backgroundColor = 'black';
+                target.style.color = 'white';
+                self.value = 'day';
+            }
+            else {
+                target.style.backgroundColor = 'white';
+                target.style.color = 'black';
+                self.value = 'night';
+            }
+        }
+        </script>
     </head>
     <body>
         <h1><a href="index.html">WEB</a></h1>
@@ -11,21 +29,16 @@
             document.querySelector('body').style.color = 'white';
         ">
         <input type="button" value="day" onclick="
-            document.querySelector('body').style.backgroundColor = 'white';
-            document.querySelector('body').style.color = 'black';
+            var target = document.querySelector('body');
+            target.style.backgroundColor = 'white';
+            target.style.color = 'black';
         ">
         <input id='night_day' type='button' value='night' onclick="
-            var target = document.querySelector('#night_day');
-            if(this.value === 'night') {
-                document.querySelector('body').style.backgroundColor = 'black';
-                document.querySelector('body').style.color = 'white';
-                this.value = 'day';
-            }
-            else {
-                document.querySelector('body').style.backgroundColor = 'white';
-                document.querySelector('body').style.color = 'black';
-                this.value = 'night';
-            }
+            /* this는 자기자신 즉, input 태그를 의미 */
+            nightDayHandler(this)
+        ">
+        <input id='night_day' type='button' value='night' onclick="
+            nightDayHandler(this)
         ">
         <ol>
             <li><a href="1.html">HTML</a></li>
