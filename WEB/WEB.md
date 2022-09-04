@@ -125,7 +125,7 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
 
 ------------------
 # WEB2 - JavaScript
-- js 태그 : script
+- script 태그 : js 사용하기
     - script 태그를 통해 js를 html안에 적을 수 있음
     - html과 달리 js는 값을 동적으로 계산함
         - html에서 1+1은 2가 아니지만, js에서는 1+1은 2임
@@ -141,3 +141,14 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
         주의할 점은 선택자에 해당하는 첫번째 요소만 선택한다는 것
     - 예를 들어, document.querySelector('.container') 라고하면  
         클래스 값이 container인 첫번째 요소에 접근함
+
+- ReFactoring(리팩토링) 이란?
+    - 코드의 중복된 부분을 제거하는 작업  
+            다시(re) 공장(factoring) 작업하는 과정
+    - 함수, 변수를 통해 중복된 부분 제거
+
+- this, self 의 의미
+    - this : 함수를 호출할 때 생성되는 실행 컨텍스트 객체
+            this가 가리키는 대상은 어떻게 this가 호출되는지에 따라 다름
+        - 1. 전역 공간에서의 this : 전역 객체를 가리킴
+        - 2. 메서드로서 호출 그 메서드 내부에서의 this : 호출한 주체에 대한 정보
