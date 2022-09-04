@@ -175,3 +175,20 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     - jQuery는 script 태그를 통해 가져오고, $를 함수명으로 사용함
         - $('a').css('color', color);  
             모든 a 태그의 'color'을 매개변수 color로 바꾼다는 의미
+
+### UI vs API
+- UI : User Interface  
+        사용자가 시스템을 제어하기 위해서 사용하는 조작 장치 (button 등)
+- API : Application Programming Interface  
+        애플리케이션을 만들기 위해서 프로그래밍을 할 때 사용하는 조작 장치 (alert 등)
+    - api 예시 (객체 검색)
+        - document : 태그 활용
+        - DOM : document 상위 객체
+        - window : 웹브라우저 제어
+        - ajax : 웹페이지 리로드 없이 정보 변경
+        - cookie : 웹페이지가 리로드 되어도 현재 상태 유지
+        - offline web application : 인터넷이 끊겨도 동작하는 웹페이지
+        - webRTC : 화상 통신 웹
+        - webGL : 3차원 그래픽으로 게임 등 제작
+        - webVR : 웹 가상현실
+        - speech : 사용자의 음성 인식, 음성 정보 전달
