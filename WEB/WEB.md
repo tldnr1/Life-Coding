@@ -151,3 +151,5 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     - this : 함수를 호출할 때 생성되는 실행 컨텍스트 객체  
         - this가 가리키는 대상은 어떻게 this가 호출되는지에 따라 다름  
             참고 : https://eunjinii.tistory.com/104
+    - self : 함수에서 this를 받기위한 매개변수로 주로 사용 (자세한 내용은 구글에서..)  
+            예시 : function func1(self) {}
