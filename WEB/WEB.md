@@ -148,7 +148,6 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     - 함수, 변수를 통해 중복된 부분 제거
 
 - this, self 의 의미
-    - this : 함수를 호출할 때 생성되는 실행 컨텍스트 객체
-            this가 가리키는 대상은 어떻게 this가 호출되는지에 따라 다름
-        1. 전역 공간에서의 this : 전역 객체를 가리킴
-        2. 메서드로서 호출 그 메서드 내부에서의 this : 호출한 주체에 대한 정보
+    - this : 함수를 호출할 때 생성되는 실행 컨텍스트 객체  
+        - this가 가리키는 대상은 어떻게 this가 호출되는지에 따라 다름  
+            참고 : https://eunjinii.tistory.com/104
