@@ -153,3 +153,25 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
             참고 : https://eunjinii.tistory.com/104
     - self : 함수에서 this를 받기위한 매개변수로 주로 사용 (자세한 내용은 구글에서..)  
         - 예시 : function func1(self) {}
+
+- 객체 란?
+    - 코드를 잘 정리하기 위한 수납도구(?), Body가 객체
+    ```
+        var Body: { 
+            /* property : methods 의 구조 */
+            setColor: function (color) {
+                document.querySelector('body').style.color = color;
+            },
+            setBackgroundColor:function (color) {
+                document.querySelector('body').style.backgroundColor = color;
+            }
+        }
+    ```
+
+### Library vs Framework
+    - Framework : 반쯤 완성된 제품 안에 들어가서 필요한 부분을 고치는 느낌 (뼈대라고 생각)
+    - Libaray : 내가 필요한 부품을 가져오는 느낌
+        - jQuery 가 js의 대표적인 라이브러리
+        - jQuery는 script 태그를 통해 가져오고, $를 함수명으로 사용함
+            - $('a').css('color', color);  
+                모든 a 태그의 'color'을 매개변수 color로 바꾼다는 의미
