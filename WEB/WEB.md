@@ -169,8 +169,8 @@ https://www.programiz.com/html/online-compiler/ - html, css, javascript 만 간�
     ```
 
 ### Library vs Framework
-Framework : 반쯤 완성된 제품 안에 들어가서 필요한 부분을 고치는 느낌 (뼈대라고 생각)
-Libaray : 내가 필요한 부품을 가져오는 느낌
+- Framework : 반쯤 완성된 제품 안에 들어가서 필요한 부분을 고치는 느낌 (뼈대라고 생각)
+- Libaray : 내가 필요한 부품을 가져오는 느낌
     - jQuery 가 js의 대표적인 라이브러리
     - jQuery는 script 태그를 통해 가져오고, $를 함수명으로 사용함
         - $('a').css('color', color);  
